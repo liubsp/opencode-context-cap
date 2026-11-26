@@ -1,0 +1,31 @@
+{
+  "name": "@liubsp/opencode-context-cap",
+  "version": "0.1.0",
+  "description": "Cap every OpenCode chat model at a 300,000-token context window.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liubsp/opencode-context-cap.git"
+  },
+  "homepage": "https://github.com/liubsp/opencode-context-cap#readme",
+  "bugs": {
+    "url": "https://github.com/liubsp/opencode-context-cap/issues"
+  },
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "test:package": "node scripts/test-package.mjs"
+  }
+}
